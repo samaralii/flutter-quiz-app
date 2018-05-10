@@ -9,7 +9,7 @@ class LandingPage extends StatelessWidget {
       child: InkWell(
         onTap: () => Navigator
             .of(context)
-            .push(MaterialPageRoute(builder: (BuildContext) => QuizPage())),
+            .push(MaterialPageRoute(builder: (b) => QuizPage())),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
