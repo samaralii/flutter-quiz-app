@@ -26,7 +26,7 @@ class ScorePage extends StatelessWidget {
             color: Colors.white,
             iconSize: 100.0,
             onPressed: () => Navigator.of(context).pushAndRemoveUntil(
-                MaterialPageRoute(builder: (BuildContext) => QuizPage()),
+                MaterialPageRoute(builder: (b) => QuizPage()),
                 (Route route) => route == null),
           )
         ],
