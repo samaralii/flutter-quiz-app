@@ -48,7 +48,7 @@ class CorrectWrongOverlayState extends State<CorrectWrongOverlay>
                 decoration:
                     BoxDecoration(color: Colors.white, shape: BoxShape.circle),
                 child: Transform.rotate(
-                  angle: _iconAnimation.value * 2 * PI,
+                  angle: _iconAnimation.value * 2 * pi,
                   child: Icon(
                     widget._isCorrect ? Icons.done : Icons.cancel,
                     size: _iconAnimation.value * 80.0,
